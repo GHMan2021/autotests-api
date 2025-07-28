@@ -1,28 +1,30 @@
-from functools import lru_cache  # Импортируем функцию для кеширования
+from http import HTTPStatus
 
-from httpx import Client
-from pydantic import BaseModel, ConfigDict
+import pytest
 
-from clients.authentication.authentication_client import get_authentication_client
-from clients.authentication.authentication_schema import LoginRequestSchema
-
-
-class AuthenticationUserSchema(BaseModel):  # Добавили параметр frozen=True
-    model_config = ConfigDict(frozen=True)
-
-    email: str
-    password: str
+from clients.authentication.authentication_client import AuthenticationClient
+from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
+from clients.users.public_users_client import PublicUsersClient
+from fixtures.users import UserFixture
+from tools.assertions.authentication import assert_login_response
+from tools.assertions.base import assert_status_code
+from tools.assertions.schema import validate_json_schema
 
 
-@lru_cache(maxsize=None)  # Кешируем возвращаемое значение
-def get_private_http_client(user: AuthenticationUserSchema) -> Client:
-    authentication_client = get_authentication_client()
+@pytest.mark.regression
+@pytest.mark.authentication
+class TestAuthentication:
+    def test_login(
+            self,
+            function_user: UserFixture,
+            public_users_client: PublicUsersClient,
+            authentication_client: AuthenticationClient
+    ):
+        request = LoginRequestSchema(email=function_user.email, password=function_user.password)
+        response = authentication_client.login_api(request)
+        response_data = LoginResponseSchema.model_validate_json(response.text)
 
-    login_request = LoginRequestSchema(email=user.email, password=user.password)
-    login_response = authentication_client.login(login_request)
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_login_response(response_data)
 
-    return Client(
-        timeout=100,
-        base_url="http://localhost:8000",
-        headers={"Authorization": f"Bearer {login_response.token.access_token}"}
-    )
+        validate_json_schema(response.json(), response_data.model_json_schema())
