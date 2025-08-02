@@ -1,4 +1,3 @@
-from clients.users.private_users_client import PrivateUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema, \
     GetUserResponseSchema
 from tools.assertions.base import assert_equal
