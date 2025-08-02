@@ -50,7 +50,7 @@ class ExercisesClient(APIClient):
         """
         return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
 
-    def delete_course_api(self, exercise_id: str) -> Response:
+    def delete_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод удаления упражнения.
 
