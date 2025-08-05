@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8ef90b0d-bbba-4e5f-9cb3-db3fbe34d870' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjI5OjQxLjIxMzcxMCIsInVzZXJfaWQiOiJhYjU2ZWU4Yy04N2ZlLTRjMTYtYjMzZi1iOTc3ODNmZGRlNTIifQ.pQmZVKoT69vy0xkZnPq005BXJzf1XiX-j8mppWJ-tKk' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long music perform its.","maxScore":77,"minScore":19,"description":"Be case land company source myself result they. Smile carry grow director.\nMain day that style trouble.\nSimple card concern well open shake surface. Effort size never card deep.","estimatedTime":"4 weeks"}'

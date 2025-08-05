@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjI5OjQyLjM1OTUxNyIsInVzZXJfaWQiOiI1Nzg4NGI4My0wYjQ1LTRlZGMtYWQxOC01NzZkODI1ZGEyN2UifQ.Iu0i5U62oThgn5NmLoXjX8l3QjVp4wYfd89ofpMhi7I' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern sense prove require.","maxScore":70,"minScore":30,"description":"Yard doctor good hand hotel. Baby middle community food risk have low task.\nAdult interest pay soldier even raise term. Clearly bank morning rest. Which bar forward report above save.","estimatedTime":"1 weeks","previewFileId":"8b582d0d-ab80-47a1-813f-c1f4502586eb","createdByUserId":"57884b83-0b45-4edc-ad18-576d825da27e"}'

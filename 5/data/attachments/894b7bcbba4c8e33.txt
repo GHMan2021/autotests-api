@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjI5OjQxLjIxMzcxMCIsInVzZXJfaWQiOiJhYjU2ZWU4Yy04N2ZlLTRjMTYtYjMzZi1iOTc3ODNmZGRlNTIifQ.pQmZVKoT69vy0xkZnPq005BXJzf1XiX-j8mppWJ-tKk' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Design suffer ball environment.","maxScore":78,"minScore":24,"description":"Learn agency whether pull southern evidence reason industry. Rather seek speech.\nAbility shoulder yourself structure walk. Rest country stay figure.","estimatedTime":"9 weeks","previewFileId":"21ed72b0-62ea-4bae-9266-fdff510c0a6a","createdByUserId":"ab56ee8c-87fe-4c16-b33f-b97783fdde52"}'

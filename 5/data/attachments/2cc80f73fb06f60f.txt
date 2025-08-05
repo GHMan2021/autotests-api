@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjI5OjQzLjgxNzI2MiIsInVzZXJfaWQiOiI0OTc5NzY2ZC1mZGQxLTRkYjEtOGVkNi1kZWIzNWI4N2FkMTcifQ.FrsGDzpQSFUUzJIXCmul30-J3TaiTARVtUFBG-3tsNo' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Boy beyond good impact.","maxScore":68,"minScore":6,"description":"Table assume over produce across sense air other. Stop pass protect degree instead. Board myself west sit well our already challenge.","estimatedTime":"3 weeks","previewFileId":"49382f2c-2ab5-498d-9fa9-5ef8c6028644","createdByUserId":"4979766d-fdd1-4db1-8ed6-deb35b87ad17"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjI5OjQzLjU0NDA5NCIsInVzZXJfaWQiOiJlMWE1NjI0MC00ZmRiLTQwZmEtOTAwNC0xYmE2ZWM4OTZmOGIifQ.yvE-sjOgSTxwvZHKIgL0qUt2ZPSPw9REEMj8aaT2xUw' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Today different inside nature Republican make important join.","maxScore":70,"minScore":18,"description":"Both offer loss series break. Citizen among hospital.\nMaterial hour memory phone fly. House condition firm him hundred none sure list. Hundred draw civil.","estimatedTime":"5 weeks","previewFileId":"62dda418-6bf5-4978-aa25-f7c63c8e4541","createdByUserId":"e1a56240-4fdb-40fa-9004-1ba6ec896f8b"}'

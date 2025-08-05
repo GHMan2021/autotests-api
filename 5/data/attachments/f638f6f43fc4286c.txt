@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjI5OjQyLjYzMzE4NCIsInVzZXJfaWQiOiJmY2I0MDY0Ny01N2JjLTRmNTMtYjkzMi02YTliNDBiNDBiZjcifQ.zm7ujsRM0SSmvZMPqg7UeZj5nAonxkPKABLJs4oR484' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant on ahead apply buy begin community.","maxScore":92,"minScore":18,"description":"Home book sister number. Particular concern seat.\nSeason future several laugh. Executive send rate since.","estimatedTime":"4 weeks","previewFileId":"d93a67f6-ff8b-4753-be99-72eb8f3f99ec","createdByUserId":"fcb40647-57bc-4f53-b932-6a9b40b40bf7"}'

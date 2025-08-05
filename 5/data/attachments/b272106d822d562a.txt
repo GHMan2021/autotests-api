@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjI5OjQ1LjAwNTYwMSIsInVzZXJfaWQiOiI4MGVjNmNiZS0xNmI0LTQ5ZWQtODg1OS02YWZhZDk2NGRkOGEifQ.dQM5USIJtZN_LqAwdwupbJ8OpdY57wGQnmud_m4gBc8' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole accept respond.","courseId":"4383fb97-1262-46fa-8019-effdeed85fbf","maxScore":62,"minScore":21,"orderIndex":52,"description":"My director job send hope source sound. Health might yourself leg crime forget. Type myself up bit smile local.","estimatedTime":"6 weeks"}'
