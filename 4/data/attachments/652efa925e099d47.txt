@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjE3OjQ3Ljc4NDM1MiIsInVzZXJfaWQiOiIyNTlkNGM2NS0yY2FlLTQ3M2ItYTVhOS05ZjlhOTJmNWE1NTcifQ.0viIdHxtRp9SWVTOHHIaK96JfN6Zyew8TrJCbNyKS0Y' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sense set above be develop behind prove.","maxScore":84,"minScore":20,"description":"Paper improve drug writer public collection much third. American sign with part. Society guess each tax American.\nGuy few act share there sense. Little herself yourself kid nothing example pay rest.","estimatedTime":"5 weeks","previewFileId":"88a27e26-6fb0-4247-851d-2eb42fb70782","createdByUserId":"259d4c65-2cae-473b-a5a9-9f9a92f5a557"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjE3OjQ2LjU0MjcxMiIsInVzZXJfaWQiOiIwZDk3NzZlYi01ZGJlLTQyYjktYmQ2OS02YTQ1ZjYzOGU5MDMifQ.c0sjHS6RtfOSmEr2tNfIHBdTcuQb9VklsrtxsHaAXfQ' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration stuff event carry reveal six.","maxScore":93,"minScore":22,"description":"Drug guess PM family purpose then.\nFour group responsibility very bed newspaper happen offer. Among truth company recently he despite.","estimatedTime":"3 weeks","previewFileId":"8a92dc7c-aaa9-4d60-855d-f2a0c41f801b","createdByUserId":"0d9776eb-5dbe-42b9-bd69-6a45f638e903"}'

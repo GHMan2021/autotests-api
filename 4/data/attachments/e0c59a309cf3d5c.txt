@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f9661424-82dc-41e2-813f-ad8cc28d266c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjE3OjQ1Ljk2MDY4MSIsInVzZXJfaWQiOiI2YTA0ODE1Yi1jZWI0LTQzNjYtOWRhZC0yZmE4ZjE2NDkzMjUifQ.a7p1c0tQSURVsEOb4iBbioN1rnRpROiT1KZj_isGsqs' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern section cold school key.","maxScore":93,"minScore":8,"description":"Week heavy get avoid. Teacher couple box safe.\nBusiness best son. Manager late reduce first one activity. Especially stuff seat take decision since. Significant system free class learn.","estimatedTime":"1 weeks"}'

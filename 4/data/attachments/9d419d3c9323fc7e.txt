@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjE3OjUwLjE3MzI0NiIsInVzZXJfaWQiOiJlNTdiOTkwYS0wMzQwLTRjMzAtYmY4Ni1lMTk5YWM1M2I2OTMifQ.RjZE47mXRIbbv9j5s82xFjLzGNGRcAM6HSn7BPA0Rzw' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change environmental charge citizen late prepare.","maxScore":98,"minScore":23,"description":"Represent main nice arrive consumer. Perhaps evidence sing wide.\nThrough box nearly. Accept friend explain majority. Drive want whom talk possible bag last.","estimatedTime":"1 weeks","previewFileId":"c3fe0667-053a-4abc-a446-a8a45d660d6d","createdByUserId":"e57b990a-0340-4c30-bf86-e199ac53b693"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjE3OjQ5LjU4OTE2MiIsInVzZXJfaWQiOiI1N2NmYzc3NS0xYWQ1LTQ2ZDItOTVjOC02MWFjNzI1NDY1OGIifQ.Wh78ya_Ez6BKlBHRxJJQqWSI18vVO3Q4SPqq8dUVxW4' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sea policy institution exactly read now.","maxScore":80,"minScore":24,"description":"Population this whatever site concern rule. Language travel participant cold article live. Little face firm never likely part crime.","estimatedTime":"4 weeks","previewFileId":"7a243f61-93e5-4914-bcdc-d5ff9d3a072c","createdByUserId":"57cfc775-1ad5-46d2-95c8-61ac7254658b"}'

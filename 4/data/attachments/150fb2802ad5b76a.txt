@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjE3OjQ1Ljk2MDY4MSIsInVzZXJfaWQiOiI2YTA0ODE1Yi1jZWI0LTQzNjYtOWRhZC0yZmE4ZjE2NDkzMjUifQ.a7p1c0tQSURVsEOb4iBbioN1rnRpROiT1KZj_isGsqs' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Administration girl top hold.","maxScore":53,"minScore":4,"description":"Condition Republican either education the late.\nSend toward purpose as. Per health himself such clear speech others. Event pressure national already space ahead.","estimatedTime":"6 weeks","previewFileId":"00633d86-5543-4e87-bd0d-2ed3692eee39","createdByUserId":"6a04815b-ceb4-4366-9dad-2fa8f1649325"}'

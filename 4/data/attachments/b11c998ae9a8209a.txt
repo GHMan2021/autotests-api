@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE2OjE3OjQ4LjM2MzgxMiIsInVzZXJfaWQiOiI4OTZkOTVkYy1kMDdlLTRiNjMtOTdlYy1iNTdlNTE2MjE5YzYifQ.qXbgCtayiTqg7NNfjbLQ7YJuCQmyM4FO0kx__3F979o' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Executive compare war statement account central.","maxScore":88,"minScore":4,"description":"Base strong company step question building say. Could pressure amount voice still.\nEnvironmental about mission discussion serve. Former sister region money. Carry coach how add population remember.","estimatedTime":"9 weeks","previewFileId":"f3c14200-6790-49c4-bf0c-d948f05f0d47","createdByUserId":"896d95dc-d07e-4b63-97ec-b57e516219c6"}'
