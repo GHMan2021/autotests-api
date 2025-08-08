@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDEyOjQxOjI2LjM5NjA0MiIsInVzZXJfaWQiOiIxMjM2ZjdiOC00Y2UyLTRkZGQtOWExNi02MjhjODZmNDMyODAifQ.Hl9D5_PLMWv_nzr5yEufd5ftwxQjgCHKldi9yiQ6SVs' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Name try herself table central.","maxScore":90,"minScore":13,"description":"Seem surface young five message someone everybody. Whatever possible war respond. Save huge road old deep.","estimatedTime":"7 weeks","previewFileId":"9546c1a6-e3dc-4532-bec5-131ba162a5fb","createdByUserId":"1236f7b8-4ce2-4ddd-9a16-628c86f43280"}'

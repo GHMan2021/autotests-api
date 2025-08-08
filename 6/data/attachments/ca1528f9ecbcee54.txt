@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/a6bbf69e-9f6b-4007-a194-5a6ec5a92b4c
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/a6bbf69e-9f6b-4007-a194-5a6ec5a92b4c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:92 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:68 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to a6bbf69e-9f6b-4007-a194-5a6ec5a92b4c
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Product painting believe draw.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to c070879a-34ca-4d93-abd0-f176d5f122c4
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 96
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Their mean score arm. Allow her occur mouth build budget rate.
+Alone reach fund create our begin low. Agreement physical somebody have. Professional institution find three. Trial left crime these.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

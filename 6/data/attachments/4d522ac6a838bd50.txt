@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDEyOjQxOjIyLjc1MjE0NCIsInVzZXJfaWQiOiI2N2M5ZTJlYS00ZDA5LTRiZWYtYmFjZC0wZWI3ZGViMDQwZDIifQ.qY5NqcD7HjDJK0FTF1yv3nvnea96FceKXa_dlAP03eg' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Might be sort cell community these.","maxScore":57,"minScore":19,"description":"Feeling ok talk. Wear set keep discuss shake purpose support whole.\nDemocrat newspaper structure product. Property by design customer yard occur remain. Kitchen police why author.","estimatedTime":"9 weeks","previewFileId":"2a9838ad-4a58-4cc2-a052-78e4426053dd","createdByUserId":"67c9e2ea-4d09-4bef-bacd-0eb7deb040d2"}'

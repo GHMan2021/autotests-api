@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDEyOjQxOjI1LjE1MzE0NyIsInVzZXJfaWQiOiJjNjY3NzM3Zi05NTBlLTQ5ZDAtYWU0OC1kZjAyMWJkMDFiNmUifQ.n5ruVUbY6jarLk58xHhoIZl159cFyzcfUJ9fQfiCsIU' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care determine we near left rule.","maxScore":82,"minScore":26,"description":"No sure onto too.\nTop weight top want page. Fact human animal room late. Some agreement better such.\nBy tax model low. Upon away one cultural require conference. Reflect question image.","estimatedTime":"1 weeks","previewFileId":"fbb71422-b0ec-411f-99ef-5609089fe6d6","createdByUserId":"c667737f-950e-49d0-ae48-df021bd01b6e"}'

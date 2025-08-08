@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDEyOjQxOjIyLjE2NjEzOSIsInVzZXJfaWQiOiJhZjY4MTIzNS0yOWZhLTQ4ZDAtOGUxOS0yYWRmNTJmMjhmMDMifQ.AjtQ92ilZrB37ugjFcx0fcoJQUfqYE4yuBn1OSSdPEQ' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog blue forward watch standard under book.","maxScore":68,"minScore":29,"description":"About evidence firm. Executive threat everybody recent history.\nPower economy consumer laugh. For low part always. Whether miss full half war spring factor.","estimatedTime":"1 weeks","previewFileId":"98959c93-2af9-4ce5-8575-0bd47ee87582","createdByUserId":"af681235-29fa-48d0-8e19-2adf52f28f03"}'

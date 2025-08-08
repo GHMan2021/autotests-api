@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA4VDEyOjQxOjI2LjM5NjA0MiIsInVzZXJfaWQiOiIxMjM2ZjdiOC00Y2UyLTRkZGQtOWExNi02MjhjODZmNDMyODAifQ.Hl9D5_PLMWv_nzr5yEufd5ftwxQjgCHKldi9yiQ6SVs' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"What so night this.","courseId":"654d1639-a3a2-4c3c-abff-983e3f92432c","maxScore":62,"minScore":25,"orderIndex":47,"description":"Against quality yes true language much section. Actually our others hold machine ground capital. As real involve dog.\nSouthern size line over. Occur form girl yet.","estimatedTime":"10 weeks"}'
