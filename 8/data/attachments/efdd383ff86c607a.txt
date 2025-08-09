@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/7dc6d6ee-b8bf-4457-97d2-6ae7a5af32b7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ4LjE4MzcyNyIsInVzZXJfaWQiOiJmZWJlMGNlOC0zZjhiLTRjZWEtOTEzNi02MGYzMGQ2NGIwYmYifQ.9pbJN8-EQGd4IsKa_ZtByiphRDJT-ztFWi2Qn2CD7V0' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation then mind.","courseId":"0c1c7ef6-126b-470f-9b48-fa7d594139a2","maxScore":52,"minScore":3,"orderIndex":76,"description":"Stand serious beat debate degree each. Pick near baby machine store trade sometimes past. Meeting never throw building suddenly miss sell.\nTen old occur. Report drive game offer send behind describe.","estimatedTime":"2 weeks"}'

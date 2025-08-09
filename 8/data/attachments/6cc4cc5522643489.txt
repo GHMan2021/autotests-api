@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ3LjkxMDY4OCIsInVzZXJfaWQiOiJiNDk5NmYyNC1kODM3LTRjNjgtOTY3Zi00MDY1ZmIwNzQ0YTUifQ.dAfFvtia7vYhX4BeqTKfs0Q8518LpvKnKs8PvyuHoMI' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Some realize far common adult per.","courseId":"5d4fbdda-6814-43dc-a36c-cdecd48bc269","maxScore":87,"minScore":2,"orderIndex":42,"description":"High power expect actually. Include already may according low back.\nSkin mind subject better ball pattern. Season place hear see could enter career.","estimatedTime":"9 weeks"}'

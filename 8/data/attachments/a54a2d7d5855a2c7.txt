@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ5LjA4NDUyMiIsInVzZXJfaWQiOiJmYmFmMmM2NC05Mzk4LTRmZjMtOTg2Yy1jNmVkZTEzYWQxMmQifQ.seN2k_S60J8PjPK-9BPCXz_GmUt1foRMocBV_0KwpVY' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Go more necessary most current enter four.","maxScore":50,"minScore":23,"description":"Participant church whole radio including join term participant. Occur whom already dream.\nShare task young set. Trade present next name.","estimatedTime":"5 weeks","previewFileId":"42f50847-edba-4867-a20c-1c8cccc96249","createdByUserId":"fbaf2c64-9398-4ff3-986c-c6ede13ad12d"}'

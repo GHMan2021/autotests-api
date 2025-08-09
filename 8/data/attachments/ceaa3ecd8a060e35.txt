@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ1LjYwMjAzNCIsInVzZXJfaWQiOiJmNGY5Yzk4Yy00ZmM1LTQyYTktYmZmYy1iYzBhYjk0M2M3ZmYifQ.WP7VybkLLMKVf2YF0S2hHMqRuQkDIlKSzsvpRuDdq8A' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Man so particularly discuss.","maxScore":90,"minScore":17,"description":"Cut of bill director public despite specific think. About must fall discuss. Any true create yes agency.\nThroughout kitchen word education. For run reflect PM.","estimatedTime":"4 weeks","previewFileId":"86fba857-d690-47fa-b56c-00cdf9edb1de","createdByUserId":"f4f9c98c-4fc5-42a9-bffc-bc0ab943c7ff"}'

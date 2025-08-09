@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ4LjE4MzcyNyIsInVzZXJfaWQiOiJmZWJlMGNlOC0zZjhiLTRjZWEtOTEzNi02MGYzMGQ2NGIwYmYifQ.9pbJN8-EQGd4IsKa_ZtByiphRDJT-ztFWi2Qn2CD7V0' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Issue theory size whom.","maxScore":86,"minScore":13,"description":"Marriage close this send sense scientist city. Become seven arrive early follow yourself.","estimatedTime":"6 weeks","previewFileId":"e1602f8c-2ba5-48af-a9f7-744bc67de205","createdByUserId":"febe0ce8-3f8b-4cea-9136-60f30d64b0bf"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ4LjE4MzcyNyIsInVzZXJfaWQiOiJmZWJlMGNlOC0zZjhiLTRjZWEtOTEzNi02MGYzMGQ2NGIwYmYifQ.9pbJN8-EQGd4IsKa_ZtByiphRDJT-ztFWi2Qn2CD7V0' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return the air probably.","courseId":"1ce027c7-aa59-4bbb-8168-03391fab0715","maxScore":82,"minScore":29,"orderIndex":33,"description":"Fish stop instead reach important.\nInvestment ok television cover. Ahead center what sell. Treatment its morning kind eat.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/94a21de9-e1ea-4949-858d-29cc2233951d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ1LjYwMjAzNCIsInVzZXJfaWQiOiJmNGY5Yzk4Yy00ZmM1LTQyYTktYmZmYy1iYzBhYjk0M2M3ZmYifQ.WP7VybkLLMKVf2YF0S2hHMqRuQkDIlKSzsvpRuDdq8A' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Again day drug guess Mr.","maxScore":81,"minScore":7,"description":"Trip rate without present TV. Brother young real school later. Eight four air call fill wish security. Letter collection generation special you why process.","estimatedTime":"9 weeks"}'

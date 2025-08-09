@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ3LjAxMDI4MSIsInVzZXJfaWQiOiJjZTg2Y2QyYS1jYjUwLTQ0MjEtYjRlNy05MTRkODBmOGRhYzMifQ._FjPz8-cFWRMBqHIi5kgkUzGFVoew6vKvJYUN7njRXc' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Politics human eye learn movie.","maxScore":61,"minScore":16,"description":"These morning leader public. Year up suggest who card along example. Could us before image provide evidence provide.","estimatedTime":"7 weeks","previewFileId":"b5c1eec3-ca83-4051-88db-0182057fb691","createdByUserId":"ce86cd2a-cb50-4421-b4e7-914d80f8dac3"}'

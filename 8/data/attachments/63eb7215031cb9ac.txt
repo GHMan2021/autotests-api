@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjMwOjQ3LjkxMDY4OCIsInVzZXJfaWQiOiJiNDk5NmYyNC1kODM3LTRjNjgtOTY3Zi00MDY1ZmIwNzQ0YTUifQ.dAfFvtia7vYhX4BeqTKfs0Q8518LpvKnKs8PvyuHoMI' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture million four through.","maxScore":55,"minScore":1,"description":"Long relate analysis drive citizen become.\nAnother catch entire election add tree. Before address sort. Likely discuss measure drop person.","estimatedTime":"2 weeks","previewFileId":"e029db64-ab93-4371-bd40-a8dfe0404068","createdByUserId":"b4996f24-d837-4c68-967f-4065fb0744a5"}'
