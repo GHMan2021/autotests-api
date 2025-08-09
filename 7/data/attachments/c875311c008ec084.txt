@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/030a53ff-e352-43b2-9dbf-1dd71337c70c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjQ3LjkyMzI0NyIsInVzZXJfaWQiOiI1OGU1NzQ2Zi1iZGQwLTRiMDYtYWZlMy03NDVjNzZkYWQ0MmMifQ.nf8jjpNA_JvmDRXXxWse5bJ4tgt54a8QJm1cnP7J1bY' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Response reason model character go strategy.","maxScore":76,"minScore":5,"description":"Our turn for clearly though late effect site. Data section agreement message.\nPay fill station. Visit artist age activity into crime simply.","estimatedTime":"3 weeks"}'

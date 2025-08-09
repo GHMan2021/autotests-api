@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjUwLjAzMTUzMSIsInVzZXJfaWQiOiIzYTc2NWE5My1mZDAyLTQyZGUtOTRiNS1jMjVjNjYzM2ZjZGQifQ.yas_KjdMqxXkas3BCYZfgzdY-tokZrXIfzH-EWWfoiU' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Win recognize visit accept role career order.","maxScore":64,"minScore":5,"description":"May power choose hand light. Whether major never girl morning cost look. Article economy order view cause.","estimatedTime":"8 weeks","previewFileId":"f32c3d7a-50b2-486d-ab6e-3ccd360a193c","createdByUserId":"3a765a93-fd02-42de-94b5-c25c6633fcdd"}'

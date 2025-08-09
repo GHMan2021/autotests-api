@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjUxLjIwOTAwMiIsInVzZXJfaWQiOiI0OTU0ZTU0OS0xMjdlLTQ5NGQtOGVhZS0xNTQ2NjExNDYyMDIifQ.lMJStdeCEDxek6zHFs1KpoTQCTU2OcG3mv0V5PQDhFw' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"See action condition second organization.","maxScore":79,"minScore":23,"description":"Who hour participant lawyer. Piece feeling real job hot full.","estimatedTime":"1 weeks","previewFileId":"2d48bda7-61dd-4b02-ba22-7e504d932b2a","createdByUserId":"4954e549-127e-494d-8eae-154661146202"}'

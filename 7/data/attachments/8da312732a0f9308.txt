@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjQ3LjkyMzI0NyIsInVzZXJfaWQiOiI1OGU1NzQ2Zi1iZGQwLTRiMDYtYWZlMy03NDVjNzZkYWQ0MmMifQ.nf8jjpNA_JvmDRXXxWse5bJ4tgt54a8QJm1cnP7J1bY' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fund or discover nature world by describe.","maxScore":90,"minScore":27,"description":"South parent quite light of tell forward. Can save court think month computer. Fall first current customer.","estimatedTime":"3 weeks","previewFileId":"72e0b58f-8bfd-4ed9-a190-473df22e5c2d","createdByUserId":"58e5746f-bdd0-4b06-afe3-745c76dad42c"}'

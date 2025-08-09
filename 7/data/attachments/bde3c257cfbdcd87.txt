@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjQ5LjQzOTU3NiIsInVzZXJfaWQiOiJjM2M4YzFiNy1kNDhlLTQxMmUtOTY4Yi0wMDE4NGFjYjZlYWUifQ.OcrMuY7LSbNkpATTBJp5ve0A3-l2LedPEdRIaweGUrM' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Detail safe response see area.","maxScore":68,"minScore":13,"description":"Huge effect second others letter data culture. Stand beautiful nearly little tell win.\nUnder too must. Standard form energy large foot year anything. Always spend treatment.","estimatedTime":"10 weeks","previewFileId":"a5b42105-a59d-4105-877f-ea855808baf0","createdByUserId":"c3c8c1b7-d48e-412e-968b-00184acb6eae"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjUwLjYyMTA5MyIsInVzZXJfaWQiOiI0MDk0NDljNC03MTYzLTRmMjMtYTU1MS1kZWI1ODNiNmExZjkifQ.wkAb7gf-wIBkH1TaD08BDM0olcebe5Dh5MHH-UNi2bU' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine government us energy from.","maxScore":53,"minScore":6,"description":"Say pretty success possible purpose billion. Effect great hospital usually door receive present. Old land expect human. Box bill this character.","estimatedTime":"5 weeks","previewFileId":"5bc9c292-4a3e-4595-9530-1054c7366c61","createdByUserId":"409449c4-7163-4f23-a551-deb583b6a1f9"}'

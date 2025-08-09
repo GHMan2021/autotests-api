@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjQ4Ljg0NjQ0MiIsInVzZXJfaWQiOiIyOGQ0YTgyYS0yNGFiLTRiY2ItOTAxOC0zNjlhYzJjNTI4YjMifQ.JEEZy2ga3cr405Dl3pbSfX9jprSpjGQR9elqbnttIdQ' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay born space physical travel.","maxScore":54,"minScore":10,"description":"Congress age majority fight imagine sing. Others where ground on contain. White choose threat program future.\nLeft stop rate more fish. Green responsibility development arm understand see strategy.","estimatedTime":"7 weeks","previewFileId":"52c403aa-3d8d-41b4-9811-7a38e799d9cf","createdByUserId":"28d4a82a-24ab-4bcb-9018-369ac2c528b3"}'

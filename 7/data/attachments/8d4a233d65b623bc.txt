@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjUyLjQ1NjQ4MiIsInVzZXJfaWQiOiIxY2IxNGVhMS1hMGFiLTRkNWMtYjFkNC0wYTUyZDY4NDc5NTgifQ.aKimWJNT9zgSmBrQsVzbtRs_isTP9qgGoYBeMZGja4c' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Human contain one new situation himself.","maxScore":50,"minScore":20,"description":"About perhaps accept both indeed choose. Young feeling mean.","estimatedTime":"7 weeks","previewFileId":"ae2f2708-9a2b-4bc8-8bdd-886137f3922f","createdByUserId":"1cb14ea1-a0ab-4d5c-b1d4-0a52d6847958"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/59d11d7d-46e9-4dc4-acf9-804e1bd070a8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA5VDA3OjAwOjUwLjYyMTA5MyIsInVzZXJfaWQiOiI0MDk0NDljNC03MTYzLTRmMjMtYTU1MS1kZWI1ODNiNmExZjkifQ.wkAb7gf-wIBkH1TaD08BDM0olcebe5Dh5MHH-UNi2bU' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Civil still heavy push most.","courseId":"d0925cd4-055d-48ea-90fd-7a39b95bcec2","maxScore":71,"minScore":17,"orderIndex":72,"description":"Whether perhaps how.\nDecide scientist lead than meet dream. Alone stop wall story. Pm plant animal matter commercial service.\nHuge next table create.","estimatedTime":"5 weeks"}'
